@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\BookList\\BookList\\BookList\\VolleyPlayer.csproj": {}
+    "C:\\Users\\User\\Desktop\\BookList\\VolleyPlayer\\VolleyPlayer\\VolleyPlayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\BookList\\BookList\\BookList\\VolleyPlayer.csproj": {
+    "C:\\Users\\User\\Desktop\\BookList\\VolleyPlayer\\VolleyPlayer\\VolleyPlayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\BookList\\BookList\\BookList\\VolleyPlayer.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\BookList\\VolleyPlayer\\VolleyPlayer\\VolleyPlayer.csproj",
         "projectName": "VolleyPlayer",
-        "projectPath": "C:\\Users\\User\\Desktop\\BookList\\BookList\\BookList\\VolleyPlayer.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\BookList\\VolleyPlayer\\VolleyPlayer\\VolleyPlayer.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\BookList\\BookList\\BookList\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\BookList\\VolleyPlayer\\VolleyPlayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
