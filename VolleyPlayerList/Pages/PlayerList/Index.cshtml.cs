@@ -16,7 +16,7 @@ namespace VolleyPlayerList.Pages.PlayerList
         }
 
         public IEnumerable<VolleyPlayer> VolleyPlayers { get; set; }
-        public async Task OnGet()
+        public async Task OnGet() //Metoda bene get ne Db duke e ngarkuar listen me element qe ndodhen ne db
         {
             VolleyPlayers = await _db.VolleyPlayer.ToListAsync();
         }

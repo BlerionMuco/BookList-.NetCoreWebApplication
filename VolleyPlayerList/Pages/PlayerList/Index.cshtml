@@ -33,7 +33,7 @@
                             @*@Html.DisplayNameFor(m=>m.VolleyPlayers.FirstOrDefault().Rate)*@
                         </th>
                     </tr>
-                    @foreach(var item in Model.VolleyPlayers)
+                    @foreach(var item in Model.VolleyPlayers)  @*per element ne tabel listoje duke nxjerre dhe lexuar cdo vlere*@ 
                      {
                         <tr>
                             <td>
