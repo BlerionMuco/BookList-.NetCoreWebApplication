@@ -5316,9 +5316,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\BookList\\BookList\\BookList\\BookList.csproj",
-      "projectName": "BookList",
-      "projectPath": "C:\\Users\\User\\Desktop\\BookList\\BookList\\BookList\\BookList.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\BookList\\BookList\\BookList\\VolleyPlayer.csproj",
+      "projectName": "VolleyPlayer",
+      "projectPath": "C:\\Users\\User\\Desktop\\BookList\\BookList\\BookList\\VolleyPlayer.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\User\\Desktop\\BookList\\BookList\\BookList\\obj\\",
       "projectStyle": "PackageReference",
