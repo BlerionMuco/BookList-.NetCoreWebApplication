@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
@@ -19,6 +20,19 @@ namespace VolleyPlayerList.Pages.PlayerList
         public async Task OnGet() //Metoda bene get ne Db duke e ngarkuar listen me element qe ndodhen ne db
         {
             VolleyPlayers = await _db.VolleyPlayer.ToListAsync();
+        }
+
+        public async Task<IActionResult> OnPostDelete(int id)
+        {
+            var player = await _db.VolleyPlayer.FindAsync(id);//kapim rekordin ne db me kete id
+                if (player == null)
+                {
+                   return NotFound();
+                }
+
+            _db.VolleyPlayer.Remove(player); //Fshime rekordin
+            await _db.SaveChangesAsync();//I bejm change db 
+            return RedirectToPage("Index");//Kthehemi te faqa Index
         }
     }
 }

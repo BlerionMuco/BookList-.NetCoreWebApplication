@@ -373,3 +373,4 @@ C:\Users\User\Desktop\BookList\VolleyPlayerList\VolleyPlayerList\obj\Debug\netco
 C:\Users\User\Desktop\BookList\VolleyPlayerList\VolleyPlayerList\obj\Debug\netcoreapp3.1\VolleyPlayerList.csproj.CopyComplete
 C:\Users\User\Desktop\BookList\VolleyPlayerList\VolleyPlayerList\obj\Debug\netcoreapp3.1\Razor\Pages\PlayerList\Create.cshtml.g.cs
 C:\Users\User\Desktop\BookList\VolleyPlayerList\VolleyPlayerList\obj\Debug\netcoreapp3.1\Razor\Pages\PlayerList\Edit.cshtml.g.cs
+C:\Users\User\Desktop\BookList\VolleyPlayerList\VolleyPlayerList\obj\Debug\netcoreapp3.1\Razor\Pages\PlayerList\Upsert.cshtml.g.cs
